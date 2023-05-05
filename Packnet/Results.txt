@@ -1,0 +1,10 @@
+Mnist normal training:
+Accuracy on task 1 : 0.06420000000000003
+Accuracy on task 2 : 0.23970000000000002
+Accuracy on task 3 : 0.6296999999999999
+
+Mnist Packnet training:
+Accuracy on task 1: 0.9721
+Accuracy on task 2: 0.8543
+Accuracy on task 3: 0.7875
+ 
