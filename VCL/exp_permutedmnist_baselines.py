@@ -15,7 +15,7 @@ coreset_method = coresets.attach_random_coreset_permuted
 
 
 @initiate_experiment
-def permutedmnist_baselines(num_epochs=100, batch_size=15000):
+def permutedmnist_baselines(num_epochs=50, batch_size=15000):
     filename = 'permutedmnist_baselines'
     
     plt.rc('text', usetex=True)
