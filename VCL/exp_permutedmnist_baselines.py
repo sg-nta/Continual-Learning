@@ -83,6 +83,6 @@ def permutedmnist_baselines(num_epochs=50, batch_size=15000):
 
 
 if __name__=='__main__':
-    num_epochs = 100
+    num_epochs = 50
     batch_size = 256
     permutedmnist_baselines(num_epochs=num_epochs, batch_size=batch_size)
