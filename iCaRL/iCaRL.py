@@ -135,7 +135,8 @@ class iCaRLmodel:
                 opt.step()
                 #print('epoch:%d,step:%d,loss:%.3f' % (epoch, step, loss_value.item()))
             accuracy = self._test(self.test_loader, 1)
-            print('epoch:%d,accuracy:%.3f' % (epoch, accuracy))
+            if epoch % 10 == 9:
+                print('epoch:%d,accuracy:%.3f' % (epoch, accuracy))
         return accuracy
 
     def _test(self, testloader, mode):
