@@ -95,7 +95,7 @@ class iCaRLmodel:
     '''
 
     # train model
-    # compute loss
+    # compute the loss
     # evaluate model
     def train(self):
         accuracy = 0
